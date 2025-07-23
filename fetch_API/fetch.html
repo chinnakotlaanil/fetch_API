@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           #container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px; 
+        justify-content: flex-start;
+    }
+    .item {
+        border: 2px solid red;
+        border-radius: 20px; 
+        padding: 20px;
+        width: 300px;
+        box-sizing: border-box;
+        margin: 0; 
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>items in click   -  <span>0</span></h1>
+    <button onclick="resetCart()">Reset Cart</button>
+    <div id="container"></div>
+    <script src="./fetch.js"></script>
+</body>
+</html>
